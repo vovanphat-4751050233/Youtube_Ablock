@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YT Ad Skipper",
+  "version": "1.0.0",
+  "description": "Tự động bỏ qua và ẩn quảng cáo khi xem YouTube.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://m.youtube.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}

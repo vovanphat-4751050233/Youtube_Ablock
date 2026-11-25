@@ -1,0 +1,19 @@
+/* Ẩn các khối quảng cáo trên YouTube */
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-container,
+.ytp-ad-image-overlay,
+#player-ads,
+#masthead-ad,
+ytd-ad-slot-renderer,
+ytd-in-feed-ad-layout-renderer,
+ytd-banner-promo-renderer,
+ytd-display-ad-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-companion-slot-renderer,
+ytd-action-companion-ad-renderer,
+ytd-statement-banner-renderer,
+ytd-primetime-promo-renderer {
+  display: none !important;
+}
